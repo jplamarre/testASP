@@ -1,0 +1,7 @@
+<apps>
+        <web-application>
+                <name>MOO</name>
+                <vpath>/testASP</vpath>
+                <path>/var/www/testASP</path>
+        </web-application>
+</apps>
