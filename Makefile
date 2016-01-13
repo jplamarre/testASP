@@ -1,6 +1,6 @@
 DEBUG=yes
 CC=mcs
-DEPS=System.Web.Http,System.Net.Http,System.Net.Http.Formatting
+DEPS=System.Web.Http,System.Net.Http,System.Net.Http.Formatting,System.Web.Http.WebHost
 PKGS=dotnet
 TARGET=library
 BASEFLAGS=-pkg:$(PKGS) -target:$(TARGET) -r:$(DEPS)
